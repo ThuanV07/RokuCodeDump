@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="textscreen" extends="Scene">
+  <children>
+<!-- Text version of the lesson for those that don't want to watch the video-->
+    <Rectangle
+        id="randrect"
+        width="1920"
+        height="1080"
+        color="0x1D0AFF"
+        translation = "[0,0]"/>
+
+
+        <ScrollableText
+        id = "article"
+        translation = "[300, 150]"
+        text = "This is some text that exists&#xA;
+        to demonstrate the text screen.&#xA;
+        I'll just be typing some random words&#xA;
+        to fillup the space&#xA;
+        well the images don't work yet&#xA;
+        this is the scrolling that I want to test out&#xA;
+        ee&#xA;
+        eee&#xA;
+        eeeeeeeee&#xA;
+        eeeeeeweeee&#xA;
+        e
+        "
+        lineSpacing = "1.5"
+        font = "font:MediumSystemFont"
+        width = "1920"
+        height = "1080"
+        color = "0xFFFFFF"
+        />
+
+      <poster 
+        id = "qsomeimage"
+        uri = "pkg:/images/placeholder.png"
+        height = "200"
+        width = "200"/>
+
+
+  </children>
+
+  <script type="text/brightscript" uri="pkg:/components/lessonmenu.brs"/>
+  <script type="text/brightscript" uri="pkg:/components/textscreen/textscreen.brs"/>
+</component>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="mainmenuscene" extends="Scene">
+  <children>
+
+      <rectangle
+      id="Background"
+      width="1920"
+      height="1080"
+      color="0x709076ff"
+      translation="[0,0]" />
+      
+    <Label id="Title" font="font:LargeBoldSystemFont" translation="[750, 250]" width="850" />
+    <ButtonGroup id="ButtonGroup" translation="[800,325]"/>
+    <Poster id="MMImage" height = "500" width = "500" translation="[200,250]"/>
+
+
+    <!--Will fill the text with content from a json for now this is just placeholder te-->
+
+   
+
+
+
+      
+      <Label
+      id="Details"
+      height="300"
+      width="1300"
+      font="font:MediumBoldSystemFont"
+      text="..."
+      wrap="true"
+      translation="[300,800]" />
+
+    <Overhang
+      showClock="true"
+      title="Basic Lesson screen" />
+
+    <Video
+      id="Video"
+      width="1920"
+      height="1080"
+      translation="[0,0]"
+      visible="false"/>
+
+    <Dialog
+      id="WarningDialog"
+      title="Warning"
+      message="PUT A WARNING MESSAGE HERE"
+      visible="false" />
+
+    <Exiter id="Exiter"/>
+
+    <!--All the components for the textscreen bounded by comments-->
+
+
+ 
+
+    <Rectangle
+        id="textscreenbg"
+        width="1920"
+        height="1080"
+        color="0x1D0AFF"
+        translation = "[0,0]"
+        visible = "false"/>
+
+       <label 
+      id="pg1"
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      translation="[300,150]"
+      width= "1200"
+      wrap="true"
+      visible = "false"
+      />
+
+
+      <label 
+        id = "pg2"
+        text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        translation = "[300,700]"
+        width= "1200"
+        visible = "false"
+        wrap = "true"
+        />
+  </children>
+
+  <script type="text/brightscript" uri="pkg:/components/lessonmenu.brs"/>
+  <script type= "text/brightscript" uri="pkg:/components/UILogic/textScreeninit.brs"/>
+  <script type ="text/brightscript" uri="pkg:/components/UILogic/showscreenlogic.brs"/>
+</component>

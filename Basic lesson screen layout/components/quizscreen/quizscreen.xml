@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="quizscreen" extends="Scene">
+  <children>
+  <!--Random rectangle used for testing-->
+        <label
+        id = "description"
+        text = "Info goes here"
+        font =  "LargeBoldSystemFont"
+        />
+    <Rectangle
+        id="rect"
+        width="1920"
+        height="1080"
+
+        color="0x1D0AFF"/>
+
+
+
+  </children>
+
+  <script type="text/brightscript" uri="pkg:/components/lessonmenu.brs"/>
+  <script type="text/brightscript" uri="pkg:/components/quizscreen/quizscreen.brs"/>
+</component>
