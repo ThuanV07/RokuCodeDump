@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="quiz" extends="Scene">
+    <script type="text/brightscript" uri="pkg:/components/quiz/quiz.brs" />
+
+    <!--Label is for questions,  -->
+    <children>
+        <Label
+            id = "questions"
+            translation = "[100, 80]"
+            width = "1000"
+            height = "100"
+            text = "How do you say 'Hello' in Spanish?"
+            font = "Large"
+            HorizAlign = "left"
+        />
+        <PosterGrid
+            id="choicesGrid"
+            translation="[100,200]"
+            itemSize="[300,80]"
+            numRows="2"
+            numColumns="2"
+            rowItemSpacing="20"
+            focusable= "true"
+            itemComponentName="TextItem"
+            wrapFocus="false"
+        />
+
+        <ButtonGroup
+            id = "answerChoices"
+            translation = "[100, 300]"
+            width = "1000"
+            height = "100"
+            />
+        <Label
+            id = "feedbackLabel"
+            translation="[100,350]"
+            text=""
+            font="Medium"
+            HorizAlign="left"
+         />
+                 </Group>
+    </children>
+</component>
