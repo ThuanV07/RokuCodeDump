@@ -1,15 +1,16 @@
 {
     "questions": [
-    { "question": "Which country speaks Spanish?", "options": ["Portugal", "Mexico", "China", "Japan"], "answer": "Mexico" },
-    { "question": "Which country speaks Spanish?", "options": ["Spain", "Brazil", "India", "France"], "answer": "Spain" },
-    { "question": "Which country speaks Spanish?", "options": ["Venezuela", "Vietnam", "Russia", "Nigeria"], "answer": "Venezuela" },
-    { "question": "Which country doesn’t speak Spanish?", "options": ["Mexico", "Portugal", "Venezuela", "Spain"], "answer": "Portugal" },
-    { "question": "Which country doesn’t speak Spanish?", "options": ["Columbia", "El Salvador", "Equatorial Guinea", "Sweden"], "answer": "Sweden" },
-    { "question": "Which country doesn’t speak Spanish?", "options": ["Nicaragua", "Argentina", "Panama", "Singapore"], "answer": "Singapore" },
-    { "question": "Which is the only country in Africa that speaks Spanish?", "options": ["Equatorial Guinea", "Madagascar", "Egypt", "Chad"], "answer": "Equatorial Guinea" },
-    { "question": "Name the only country that speaks Spanish in North America", "answer": "Mexico" },
-    { "question": "Name the only country that speaks Spanish in Europe", "answer": "Spain" },
-    { "question": "How many countries speak Spanish?", "answer": "21 countries" }
+    { "question": "What is the verb conjugation for 'I' with AR verbs?", "options": ["a", "as", "amos", "o"], "answer": "o" },
+    { "question": "What is the verb conjugation for 'you' with AR verbs?", "options": ["a", "as", "amos", "o"], "answer": "as" },
+    { "question": "What is the verb conjugation for 'he' with AR verbs?", "options": ["a", "as", "amos", "o"], "answer": "a" },
+    { "question": "What is the verb conjugation for 'we' with AR verbs?", "options": ["a", "as", "amos", "o"], "answer": "amos" },
+    { "question": "What is the verb conjugation for 'you' with ER and IR verbs?", "options": ["es", "an", "imos", "en"], "answer": "es" },
+    { "question": "What is the verb conjugation for 'they' with ER and IR verbs?", "options": ["e", "an", "imos", "en"], "answer": "en" },
+    { "question": "What is the verb conjugation for 'he' with ER and IR verbs?", "options": ["e", "an", "imos", "en"], "answer": "e" },
+    { "question": "What is the correct conjugation ending for 'they' using AR verbs?", "answer": "an" },
+    { "question": "What is the correct conjugation ending for 'we' using ER verbs?", "answer": "emos" },
+    { "question": "What is the correct conjugation ending for 'we' using IR verbs?", "answer": "imos" }
+
 
     ]
 }
